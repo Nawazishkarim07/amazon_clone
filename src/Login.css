@@ -1,0 +1,142 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+.logo_img img {
+    margin-top: 20px;
+    width: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.login_container {
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.login_container h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login_container label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login_container input {
+    height: 30px;
+    margin-bottom: 5px;
+    margin-top: -3px;
+    background-color: white;
+    width: 98%;
+    border: 2px solid #ccc; /* Adjusts the border width to 1px */
+    border-radius: 3px; /* Optional: Adds slight rounding to the corners */
+    padding: 5px; /* Ensures text doesn't touch the border */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+
+.login_signinButton {
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin-top: 20px;
+    border: 1px solid darkgray;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+    width: 98%;
+    margin-bottom: 20px;
+
+}
+
+.keep_me_signed {
+    display: flex;
+    align-items: center;   /* aligns checkbox & text vertically */
+    justify-content: flex-start;  /* aligns everything to left */
+    margin-top: 10px;
+}
+
+.keep_me_signed input {
+    width: 14px;   /* smaller checkbox */
+    height: 14px;  /* smaller checkbox */
+    margin-right: 5px;
+    color: gray;
+}
+
+.keep_me_signed label {
+    font-size: 13px; 
+    font-weight:500;
+    margin-top: -1%;
+}
+
+
+.forgot_password {
+    color: #007185;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.login_registerButton {
+    margin-top: -1px;
+    border: 1px solid darkgray;
+    height: 30px;
+    border-radius: 2px;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    cursor: pointer;
+}
+
+.for_password {
+    display: flex;
+    justify-content: space-between;  /* pushes left and right */
+    align-items: center;             /* aligns them vertically in the center */
+    margin-top: 10px;                /* adjust spacing if needed */
+    font-size: 14px;
+    font-weight: bold; 
+    margin-bottom: -2px;                /* optional: to keep text size neat */
+}
+
+.inp_pass{
+    margin-bottom: -3px;
+}
+
+.E_M{
+    font-weight: bold;
+}
+
+
+.new_to_amazon {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;  /* More space from top */
+    margin-bottom: 15px;
+}
+
+.new_to_amazon::before,
+.new_to_amazon::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px; /* space between text and lines */
+}
+
+.new_to_amazon_text {
+    font-size: 12px;
+    color: #767676;
+}
+
+
